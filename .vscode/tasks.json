@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run EarthScope",
+      "type": "shell",
+      "command": "python -m uvicorn app.main:app --reload --port 8000",
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Case game (Vite :5173)",
+      "type": "shell",
+      "command": "npm run dev",
+      "options": { "cwd": "${workspaceFolder}/case-game" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Rebuild data (pipeline + static export)",
+      "type": "shell",
+      "command": "python backend/pipeline/build.py && python backend/pipeline/export_static.py",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}

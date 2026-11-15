@@ -1,0 +1,26 @@
+region,variable,file,start_year,end_year,n_years,verdict,direction,rate_per_decade,units,mk_p,mk_p_fdr
+amazon,precip,amazon__precip.json,1998,2024,27,significant,decreasing,-272.73986958745843,mm/year,1.267002078784138e-05,3.167505196960345e-05
+amazon,soil_moisture,amazon__soil_moisture.json,1982,2025,44,significant,decreasing,-0.003741452824349179,m³/m³,0.006317105904509481,0.009870477975796065
+amazon,t2m,amazon__t2m.json,1980,2025,46,significant,increasing,0.49832955128205175,°C,1.5814310268551007e-08,5.6479679530539305e-08
+amazon,water_vapor,amazon__water_vapor.json,2003,2025,23,no_evidence,no_clear_trend,0.2668350740740745,mm,0.530402707872889,0.5765246824705316
+cairo,no2,cairo__no2.json,2005,2025,21,significant,increasing,0.37131528597875174,×10^15 molecules/cm²,0.0016536849962757597,0.002953008921920999
+cairo,t2m,cairo__t2m.json,1980,2025,46,significant,increasing,0.30572889583333424,°C,7.249475151815691e-09,3.380199648247017e-08
+dhaka,no2,dhaka__no2.json,2005,2025,21,significant,increasing,1.7551417133587497,×10^15 molecules/cm²,0.00036306517605338095,0.0007563857834445437
+dhaka,precip,dhaka__precip.json,1998,2024,27,no_evidence,no_clear_trend,-97.25190595577133,mm/year,0.12367254181775121,0.1506162727412851
+dhaka,soil_moisture,dhaka__soil_moisture.json,1982,2025,44,significant,increasing,0.004210665682870372,m³/m³,0.00027143935252502735,0.0006169076193750622
+dhaka,t2m,dhaka__t2m.json,1980,2025,46,significant,decreasing,-0.18975154320987947,°C,0.0008895239934125588,0.001710623064254921
+east_oweinat,ndvi,east_oweinat__ndvi.json,2001,2025,25,significant,increasing,0.017161021214896214,NDVI,1.2617095600748671e-18,3.154273900187168e-17
+east_oweinat,t2m,east_oweinat__t2m.json,1980,2025,46,significant,increasing,0.35903453124999984,°C,4.678286360017936e-08,1.461964487505605e-07
+egypt,precip,egypt__precip.json,1998,2024,27,significant,increasing,3.7067099701350017,mm/year,0.044580648138258065,0.06191756685869175
+egypt,t2m,egypt__t2m.json,1980,2025,46,significant,increasing,0.3412903472222261,°C,5.162438389154044e-09,3.2265239932212776e-08
+egypt,water_vapor,egypt__water_vapor.json,2003,2025,23,no_evidence,no_clear_trend,0.2975680222222222,mm,0.1137119241601629,0.1496209528423196
+global,precip,global__precip.json,1998,2024,27,no_evidence,no_clear_trend,0.19490699999991534,mm/year,0.96707483833599,0.96707483833599
+global,soil_moisture,global__soil_moisture.json,1982,2025,44,significant,increasing,0.0012014508699633708,m³/m³,8.854192203547287e-07,2.4594978343186905e-06
+global,t2m,global__t2m.json,1980,2025,46,significant,increasing,0.16179205128205118,°C,6.050170861616361e-11,5.041809051346968e-10
+global,water_vapor,global__water_vapor.json,2003,2025,23,no_evidence,no_clear_trend,0.1350018249999995,mm,0.12651766910267948,0.1506162727412851
+los_angeles,no2,los_angeles__no2.json,2005,2025,21,significant,decreasing,-4.493811900826879,×10^15 molecules/cm²,2.0006285978534746e-15,2.5007857473168433e-14
+los_angeles,precip,los_angeles__precip.json,1998,2024,27,no_evidence,no_clear_trend,8.878772310822853,mm/year,0.9014438986735968,0.93900406111833
+los_angeles,soil_moisture,los_angeles__soil_moisture.json,1982,2025,44,no_evidence,no_clear_trend,-0.00033864236718749927,m³/m³,0.37343631009847345,0.42435944329371983
+los_angeles,t2m,los_angeles__t2m.json,1980,2025,46,significant,increasing,0.17264725000000034,°C,0.019354409645999292,0.028462367126469545
+nile_delta,ndvi,nile_delta__ndvi.json,2001,2025,25,significant,increasing,0.007087009803921573,NDVI,0.003943089985719576,0.0065718166428659595
+nile_delta,t2m,nile_delta__t2m.json,1980,2025,46,significant,increasing,0.29030181159420976,°C,8.112479155792842e-09,3.380199648247017e-08

@@ -1,0 +1,605 @@
+{
+ "generated_utc": "2026-11-15T11:27:33Z",
+ "regions": {
+  "global": {
+   "name": "Global",
+   "name_ar": "العالم",
+   "type": "global",
+   "bbox": [
+    -180,
+    -90,
+    180,
+    90
+   ]
+  },
+  "egypt": {
+   "name": "Egypt",
+   "name_ar": "مصر",
+   "type": "desert country",
+   "bbox": [
+    24.7,
+    22.0,
+    36.9,
+    31.7
+   ],
+   "shape": "Egypt"
+  },
+  "cairo": {
+   "name": "Greater Cairo",
+   "name_ar": "القاهرة الكبرى",
+   "type": "large city",
+   "bbox": [
+    30.9,
+    29.8,
+    31.6,
+    30.3
+   ]
+  },
+  "nile_delta": {
+   "name": "Nile Delta",
+   "name_ar": "الدلتا",
+   "type": "farmland",
+   "bbox": [
+    30.0,
+    30.2,
+    32.0,
+    31.3
+   ]
+  },
+  "east_oweinat": {
+   "name": "East Oweinat",
+   "name_ar": "شرق العوينات",
+   "type": "reclaimed desert",
+   "bbox": [
+    28.53,
+    22.12,
+    28.93,
+    22.67
+   ]
+  },
+  "los_angeles": {
+   "name": "Los Angeles",
+   "name_ar": "لوس أنجلوس",
+   "type": "large city",
+   "bbox": [
+    -118.7,
+    33.7,
+    -117.7,
+    34.3
+   ]
+  },
+  "dhaka": {
+   "name": "Dhaka",
+   "name_ar": "دكا",
+   "type": "large city",
+   "bbox": [
+    90.2,
+    23.6,
+    90.6,
+    24.0
+   ]
+  },
+  "amazon": {
+   "name": "Amazon (Rondônia)",
+   "name_ar": "الأمازون (روندونيا)",
+   "type": "rainforest",
+   "bbox": [
+    -64,
+    -12,
+    -61,
+    -9
+   ]
+  }
+ },
+ "variables": {
+  "t2m": {
+   "name": "Air temperature (2 m)",
+   "name_ar": "حرارة الهوا (2م)",
+   "definition": "How warm the air is about 2 m above the ground.",
+   "source": "MERRA-2 reanalysis (NASA GMAO)",
+   "citation": "GMAO (2015), MERRA-2 tavgM_2d_slv_Nx V5.12.4, GES DISC, doi:10.5067/AP1B0BA5PD2K",
+   "ids": [
+    "M2TMNXSLV_5_12_4_T2M",
+    "M2SDNXSLV_5_12_4_T2MMEAN"
+   ],
+   "keyword": "M2TMNXSLV",
+   "tool": "giovanni",
+   "start": "1980-01-01",
+   "end": "2025-12-31",
+   "units": "°C",
+   "annual_units": "°C",
+   "annual_scale": 1,
+   "pct": false
+  },
+  "precip": {
+   "name": "Precipitation",
+   "name_ar": "المطر",
+   "definition": "How much rain falls, in millimetres.",
+   "source": "GPM IMERG Final Run V07 (NASA/JAXA)",
+   "citation": "Huffman et al. (2023), GPM IMERG Final Precipitation L3 1 month 0.1° V07, GES DISC, doi:10.5067/GPM/IMERG/3B-MONTH/07",
+   "ids": [
+    "GPM_3IMERGM_07_precipitation"
+   ],
+   "keyword": "GPM_3IMERGM",
+   "tool": "giovanni",
+   "start": "1998-01-01",
+   "end": "2024-12-31",
+   "units": "mm/month",
+   "annual_units": "mm/year",
+   "annual_scale": 12,
+   "pct": true,
+   "bbox_override": {
+    "global": [
+     -180,
+     -60,
+     180,
+     60
+    ]
+   }
+  },
+  "soil_moisture": {
+   "name": "Soil moisture (top 10 cm)",
+   "name_ar": "رطوبة التربة",
+   "definition": "How much of the top 10 cm of soil is water (m³ of water per m³ of soil).",
+   "source": "FLDAS Noah land model (NASA, GLDAS family)",
+   "citation": "McNally (2018), FLDAS Noah Land Surface Model L4 Global Monthly 0.1° (MERRA-2 and CHIRPS), GES DISC, doi:10.5067/5NHC22T9375G",
+   "ids": [
+    "FLDAS_NOAH01_C_GL_M_001_SoilMoi00_10cm_tavg"
+   ],
+   "keyword": "FLDAS",
+   "tool": "giovanni",
+   "start": "1982-01-01",
+   "end": "2025-12-31",
+   "units": "m³/m³",
+   "annual_units": "m³/m³",
+   "annual_scale": 1,
+   "pct": true
+  },
+  "water_vapor": {
+   "name": "Water vapor (whole air column)",
+   "name_ar": "بخار المية",
+   "definition": "All the water vapor in the air above a spot, as mm of water if it all fell as rain.",
+   "source": "AIRS on Aqua (NASA JPL)",
+   "citation": "AIRS project (2019), Aqua/AIRS L3 Monthly Standard Physical Retrieval 1° V7.0, GES DISC, doi:10.5067/UBENJB9D3T2H",
+   "ids": [
+    "AIRS3STM_7_0_TotH2OVap_A"
+   ],
+   "keyword": "AIRS3STM",
+   "tool": "giovanni",
+   "start": "2003-01-01",
+   "end": "2025-12-31",
+   "units": "mm",
+   "annual_units": "mm",
+   "annual_scale": 1,
+   "pct": true
+  },
+  "no2": {
+   "name": "Nitrogen dioxide (NO2)",
+   "name_ar": "NO2",
+   "definition": "A polluting gas from car exhaust, power plants and factories, measured in the lower air.",
+   "source": "OMI on Aura (NASA/KNMI)",
+   "citation": "Krotkov et al. (2019), OMI/Aura NO2 Cloud-Screened Tropospheric Column L3 Global 0.25° V3 (OMNO2d), GES DISC, doi:10.5067/Aura/OMI/DATA3007",
+   "ids": [
+    "OMNO2d_003_ColumnAmountNO2TropCloudScreened"
+   ],
+   "keyword": "OMNO2d",
+   "tool": "giovanni",
+   "start": "2005-01-01",
+   "end": "2025-12-31",
+   "units": "×10^15 molecules/cm²",
+   "annual_units": "×10^15 molecules/cm²",
+   "annual_scale": 1,
+   "pct": true
+  },
+  "ndvi": {
+   "name": "Vegetation greenness (NDVI)",
+   "name_ar": "خضرة النبات (NDVI)",
+   "definition": "How green and dense plants are, from -1 to 1: bare desert is about 0.1, dense crops are above 0.6.",
+   "source": "MODIS Terra MOD13A3 v061 (NASA LP DAAC, via AppEEARS)",
+   "citation": "Didan (2021), MODIS/Terra Vegetation Indices Monthly L3 Global 1km SIN Grid V061, LP DAAC, doi:10.5067/MODIS/MOD13A3.061",
+   "ids": [
+    "_1_km_monthly_NDVI"
+   ],
+   "keyword": "MOD13A3.061",
+   "tool": "appeears",
+   "start": "2001-01-01",
+   "end": "2025-12-31",
+   "units": "NDVI",
+   "annual_units": "NDVI",
+   "annual_scale": 1,
+   "pct": true
+  }
+ },
+ "method": {
+  "series": "Monthly area averages; seasonal cycle removed by subtracting each calendar month's mean; trend tests run on annual means of the monthly anomalies.",
+  "tests": "Mann-Kendall (Kendall's tau vs. time) and OLS t-test, both two-sided at alpha = 0.05. Rate of change = Sen's slope with 95% CI.",
+  "verdict": "significant = both tests p < 0.05; weak_evidence = only one; no_evidence = neither; too_short = fewer than 10 full years.",
+  "years_needed": "Weatherhead et al. (1998): n* = [3.3*sigma_N/|w0| * sqrt((1+phi)/(1-phi))]^(2/3), sigma_N and phi from detrended monthly anomalies; 90% detection probability at 5% level.",
+  "multiple_testing": "Benjamini-Hochberg false discovery rate across all series (q = 0.05).",
+  "references": [
+   "Mann (1945) Econometrica 13:245-259",
+   "Kendall (1975) Rank Correlation Methods",
+   "Sen (1968) J. Am. Stat. Assoc. 63:1379-1389",
+   "Weatherhead et al. (1998) J. Geophys. Res. 103(D14):17149-17161, doi:10.1029/98JD00995",
+   "Benjamini & Hochberg (1995) J. R. Stat. Soc. B 57:289-300"
+  ]
+ },
+ "series": [
+  {
+   "region": "amazon",
+   "variable": "precip",
+   "file": "amazon__precip.json",
+   "start_year": 1998,
+   "end_year": 2024,
+   "n_years": 27,
+   "verdict": "significant",
+   "direction": "decreasing",
+   "rate_per_decade": -272.74,
+   "units": "mm/year",
+   "mk_p": 1.267e-05,
+   "mk_p_fdr": 3.16751e-05,
+   "summary": "Precipitation over Amazon (Rondônia) is falling by about 273 mm/year, about 16% of its average level, per decade (1998–2024). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "amazon",
+   "variable": "soil_moisture",
+   "file": "amazon__soil_moisture.json",
+   "start_year": 1982,
+   "end_year": 2025,
+   "n_years": 44,
+   "verdict": "significant",
+   "direction": "decreasing",
+   "rate_per_decade": -0.00374145,
+   "units": "m³/m³",
+   "mk_p": 0.00631711,
+   "mk_p_fdr": 0.00987048,
+   "summary": "Soil moisture (top 10 cm) over Amazon (Rondônia) is falling by about 0.0037 m³/m³, about 1% of its average level, per decade (1982–2025). This trend is statistically significant (p = 0.006): it is very unlikely to be chance."
+  },
+  {
+   "region": "amazon",
+   "variable": "t2m",
+   "file": "amazon__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.49833,
+   "units": "°C",
+   "mk_p": 1.58143e-08,
+   "mk_p_fdr": 5.64797e-08,
+   "summary": "Air temperature (2 m) over Amazon (Rondônia) is rising by about 0.5 °C per decade (1980–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "amazon",
+   "variable": "water_vapor",
+   "file": "amazon__water_vapor.json",
+   "start_year": 2003,
+   "end_year": 2025,
+   "n_years": 23,
+   "verdict": "no_evidence",
+   "direction": "no_clear_trend",
+   "rate_per_decade": 0.266835,
+   "units": "mm",
+   "mk_p": 0.530403,
+   "mk_p_fdr": 0.576525,
+   "summary": "Water vapor (whole air column) over Amazon (Rondônia) shows no clear trend (2003–2025). The estimated change of 0.27 mm per decade could be chance (p = 0.530). If it kept going at this rate, about 44 years of data would be needed to detect it; we have 23."
+  },
+  {
+   "region": "cairo",
+   "variable": "no2",
+   "file": "cairo__no2.json",
+   "start_year": 2005,
+   "end_year": 2025,
+   "n_years": 21,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.371315,
+   "units": "×10^15 molecules/cm²",
+   "mk_p": 0.00165368,
+   "mk_p_fdr": 0.00295301,
+   "summary": "Nitrogen dioxide (NO2) over Greater Cairo is rising by about 0.37 ×10^15 molecules/cm², about 7% of its average level, per decade (2005–2025). This trend is statistically significant (p = 0.002): it is very unlikely to be chance."
+  },
+  {
+   "region": "cairo",
+   "variable": "t2m",
+   "file": "cairo__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.305729,
+   "units": "°C",
+   "mk_p": 7.24948e-09,
+   "mk_p_fdr": 3.3802e-08,
+   "summary": "Air temperature (2 m) over Greater Cairo is rising by about 0.31 °C per decade (1980–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "dhaka",
+   "variable": "no2",
+   "file": "dhaka__no2.json",
+   "start_year": 2005,
+   "end_year": 2025,
+   "n_years": 21,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 1.75514,
+   "units": "×10^15 molecules/cm²",
+   "mk_p": 0.000363065,
+   "mk_p_fdr": 0.000756386,
+   "summary": "Nitrogen dioxide (NO2) over Dhaka is rising by about 1.76 ×10^15 molecules/cm², about 28% of its average level, per decade (2005–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "dhaka",
+   "variable": "precip",
+   "file": "dhaka__precip.json",
+   "start_year": 1998,
+   "end_year": 2024,
+   "n_years": 27,
+   "verdict": "no_evidence",
+   "direction": "no_clear_trend",
+   "rate_per_decade": -97.2519,
+   "units": "mm/year",
+   "mk_p": 0.123673,
+   "mk_p_fdr": 0.150616,
+   "summary": "Precipitation over Dhaka shows no clear trend (1998–2024). The estimated change of -97.3 mm/year per decade could be chance (p = 0.124). If it kept going at this rate, about 50 years of data would be needed to detect it; we have 27."
+  },
+  {
+   "region": "dhaka",
+   "variable": "soil_moisture",
+   "file": "dhaka__soil_moisture.json",
+   "start_year": 1982,
+   "end_year": 2025,
+   "n_years": 44,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.00421067,
+   "units": "m³/m³",
+   "mk_p": 0.000271439,
+   "mk_p_fdr": 0.000616908,
+   "summary": "Soil moisture (top 10 cm) over Dhaka is rising by about 0.0042 m³/m³, about 1% of its average level, per decade (1982–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "dhaka",
+   "variable": "t2m",
+   "file": "dhaka__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "decreasing",
+   "rate_per_decade": -0.189752,
+   "units": "°C",
+   "mk_p": 0.000889524,
+   "mk_p_fdr": 0.00171062,
+   "summary": "Air temperature (2 m) over Dhaka is falling by about 0.19 °C per decade (1980–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "east_oweinat",
+   "variable": "ndvi",
+   "file": "east_oweinat__ndvi.json",
+   "start_year": 2001,
+   "end_year": 2025,
+   "n_years": 25,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.017161,
+   "units": "NDVI",
+   "mk_p": 1.26171e-18,
+   "mk_p_fdr": 3.15427e-17,
+   "summary": "Vegetation greenness (NDVI) over East Oweinat is rising by about 0.017 NDVI, about 16% of its average level, per decade (2001–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "east_oweinat",
+   "variable": "t2m",
+   "file": "east_oweinat__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.359035,
+   "units": "°C",
+   "mk_p": 4.67829e-08,
+   "mk_p_fdr": 1.46196e-07,
+   "summary": "Air temperature (2 m) over East Oweinat is rising by about 0.36 °C per decade (1980–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "egypt",
+   "variable": "precip",
+   "file": "egypt__precip.json",
+   "start_year": 1998,
+   "end_year": 2024,
+   "n_years": 27,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 3.70671,
+   "units": "mm/year",
+   "mk_p": 0.0445806,
+   "mk_p_fdr": 0.0619176,
+   "summary": "Precipitation over Egypt is rising by about 3.71 mm/year, about 12% of its average level, per decade (1998–2024). This trend is statistically significant (p = 0.045): it is very unlikely to be chance."
+  },
+  {
+   "region": "egypt",
+   "variable": "t2m",
+   "file": "egypt__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.34129,
+   "units": "°C",
+   "mk_p": 5.16244e-09,
+   "mk_p_fdr": 3.22652e-08,
+   "summary": "Air temperature (2 m) over Egypt is rising by about 0.34 °C per decade (1980–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "egypt",
+   "variable": "water_vapor",
+   "file": "egypt__water_vapor.json",
+   "start_year": 2003,
+   "end_year": 2025,
+   "n_years": 23,
+   "verdict": "no_evidence",
+   "direction": "no_clear_trend",
+   "rate_per_decade": 0.297568,
+   "units": "mm",
+   "mk_p": 0.113712,
+   "mk_p_fdr": 0.149621,
+   "summary": "Water vapor (whole air column) over Egypt shows no clear trend (2003–2025). The estimated change of 0.3 mm per decade could be chance (p = 0.114). If it kept going at this rate, about 35 years of data would be needed to detect it; we have 23."
+  },
+  {
+   "region": "global",
+   "variable": "precip",
+   "file": "global__precip.json",
+   "start_year": 1998,
+   "end_year": 2024,
+   "n_years": 27,
+   "verdict": "no_evidence",
+   "direction": "no_clear_trend",
+   "rate_per_decade": 0.194907,
+   "units": "mm/year",
+   "mk_p": 0.967075,
+   "mk_p_fdr": 0.967075,
+   "summary": "Precipitation worldwide (global average) shows no clear trend (1998–2024). The estimated change of 0.19 mm/year per decade could be chance (p = 0.967)."
+  },
+  {
+   "region": "global",
+   "variable": "soil_moisture",
+   "file": "global__soil_moisture.json",
+   "start_year": 1982,
+   "end_year": 2025,
+   "n_years": 44,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.00120145,
+   "units": "m³/m³",
+   "mk_p": 8.85419e-07,
+   "mk_p_fdr": 2.4595e-06,
+   "summary": "Soil moisture (top 10 cm) worldwide (global average) is rising by about 0.0012 m³/m³ per decade (1982–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "global",
+   "variable": "t2m",
+   "file": "global__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.161792,
+   "units": "°C",
+   "mk_p": 6.05017e-11,
+   "mk_p_fdr": 5.04181e-10,
+   "summary": "Air temperature (2 m) worldwide (global average) is rising by about 0.16 °C per decade (1980–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "global",
+   "variable": "water_vapor",
+   "file": "global__water_vapor.json",
+   "start_year": 2003,
+   "end_year": 2025,
+   "n_years": 23,
+   "verdict": "no_evidence",
+   "direction": "no_clear_trend",
+   "rate_per_decade": 0.135002,
+   "units": "mm",
+   "mk_p": 0.126518,
+   "mk_p_fdr": 0.150616,
+   "summary": "Water vapor (whole air column) worldwide (global average) shows no clear trend (2003–2025). The estimated change of 0.14 mm per decade could be chance (p = 0.127). If it kept going at this rate, about 34 years of data would be needed to detect it; we have 23."
+  },
+  {
+   "region": "los_angeles",
+   "variable": "no2",
+   "file": "los_angeles__no2.json",
+   "start_year": 2005,
+   "end_year": 2025,
+   "n_years": 21,
+   "verdict": "significant",
+   "direction": "decreasing",
+   "rate_per_decade": -4.49381,
+   "units": "×10^15 molecules/cm²",
+   "mk_p": 2.00063e-15,
+   "mk_p_fdr": 2.50079e-14,
+   "summary": "Nitrogen dioxide (NO2) over Los Angeles is falling by about 4.49 ×10^15 molecules/cm², about 53% of its average level, per decade (2005–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  },
+  {
+   "region": "los_angeles",
+   "variable": "precip",
+   "file": "los_angeles__precip.json",
+   "start_year": 1998,
+   "end_year": 2024,
+   "n_years": 27,
+   "verdict": "no_evidence",
+   "direction": "no_clear_trend",
+   "rate_per_decade": 8.87877,
+   "units": "mm/year",
+   "mk_p": 0.901444,
+   "mk_p_fdr": 0.939004,
+   "summary": "Precipitation over Los Angeles shows no clear trend (1998–2024). The estimated change of 8.88 mm/year per decade could be chance (p = 0.901). If it kept going at this rate, about 157 years of data would be needed to detect it; we have 27."
+  },
+  {
+   "region": "los_angeles",
+   "variable": "soil_moisture",
+   "file": "los_angeles__soil_moisture.json",
+   "start_year": 1982,
+   "end_year": 2025,
+   "n_years": 44,
+   "verdict": "no_evidence",
+   "direction": "no_clear_trend",
+   "rate_per_decade": -0.000338642,
+   "units": "m³/m³",
+   "mk_p": 0.373436,
+   "mk_p_fdr": 0.424359,
+   "summary": "Soil moisture (top 10 cm) over Los Angeles shows no clear trend (1982–2025). The estimated change of -0.00034 m³/m³ per decade could be chance (p = 0.373). If it kept going at this rate, about 100 years of data would be needed to detect it; we have 44."
+  },
+  {
+   "region": "los_angeles",
+   "variable": "t2m",
+   "file": "los_angeles__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.172647,
+   "units": "°C",
+   "mk_p": 0.0193544,
+   "mk_p_fdr": 0.0284624,
+   "summary": "Air temperature (2 m) over Los Angeles is rising by about 0.17 °C per decade (1980–2025). This trend is statistically significant (p = 0.019): it is very unlikely to be chance."
+  },
+  {
+   "region": "nile_delta",
+   "variable": "ndvi",
+   "file": "nile_delta__ndvi.json",
+   "start_year": 2001,
+   "end_year": 2025,
+   "n_years": 25,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.00708701,
+   "units": "NDVI",
+   "mk_p": 0.00394309,
+   "mk_p_fdr": 0.00657182,
+   "summary": "Vegetation greenness (NDVI) over Nile Delta is rising by about 0.0071 NDVI, about 2% of its average level, per decade (2001–2025). This trend is statistically significant (p = 0.004): it is very unlikely to be chance."
+  },
+  {
+   "region": "nile_delta",
+   "variable": "t2m",
+   "file": "nile_delta__t2m.json",
+   "start_year": 1980,
+   "end_year": 2025,
+   "n_years": 46,
+   "verdict": "significant",
+   "direction": "increasing",
+   "rate_per_decade": 0.290302,
+   "units": "°C",
+   "mk_p": 8.11248e-09,
+   "mk_p_fdr": 3.3802e-08,
+   "summary": "Air temperature (2 m) over Nile Delta is rising by about 0.29 °C per decade (1980–2025). This trend is statistically significant (p < 0.001): it is very unlikely to be chance."
+  }
+ ],
+ "missing": []
+}

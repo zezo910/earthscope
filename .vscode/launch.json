@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend: FastAPI (port 8000)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--reload", "--port", "8000"],
+      "cwd": "${workspaceFolder}/backend",
+      "jinja": true
+    },
+    {
+      "name": "Pipeline: rebuild data",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/pipeline/build.py",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Analysis: trend report + plots",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/analysis/trend_report.py",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

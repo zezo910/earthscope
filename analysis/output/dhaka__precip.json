@@ -1,0 +1,1880 @@
+{
+ "region": {
+  "slug": "dhaka",
+  "name": "Dhaka",
+  "name_ar": "دكا",
+  "type": "large city",
+  "bbox": [
+   90.2,
+   23.6,
+   90.6,
+   24.0
+  ]
+ },
+ "variable": {
+  "slug": "precip",
+  "name": "Precipitation",
+  "name_ar": "المطر",
+  "definition": "How much rain falls, in millimetres.",
+  "source": "GPM IMERG Final Run V07 (NASA/JAXA)",
+  "citation": "Huffman et al. (2023), GPM IMERG Final Precipitation L3 1 month 0.1° V07, GES DISC, doi:10.5067/GPM/IMERG/3B-MONTH/07",
+  "units": "mm/month",
+  "annual_units": "mm/year",
+  "dataset_id": "GPM_3IMERGM_07_precipitation"
+ },
+ "period": {
+  "start_year": 1998,
+  "end_year": 2024,
+  "n_years": 27
+ },
+ "monthly": [
+  {
+   "date": "1998-01",
+   "value": 38.4565,
+   "anomaly": 30.889
+  },
+  {
+   "date": "1998-02",
+   "value": 26.8426,
+   "anomaly": 9.57731
+  },
+  {
+   "date": "1998-03",
+   "value": 112.907,
+   "anomaly": 60.2561
+  },
+  {
+   "date": "1998-04",
+   "value": 192.826,
+   "anomaly": 66.3781
+  },
+  {
+   "date": "1998-05",
+   "value": 323.872,
+   "anomaly": 49.392
+  },
+  {
+   "date": "1998-06",
+   "value": 160.686,
+   "anomaly": -217.53
+  },
+  {
+   "date": "1998-07",
+   "value": 602.348,
+   "anomaly": 211.658
+  },
+  {
+   "date": "1998-08",
+   "value": 442.944,
+   "anomaly": 102.002
+  },
+  {
+   "date": "1998-09",
+   "value": 242.639,
+   "anomaly": -40.3299
+  },
+  {
+   "date": "1998-10",
+   "value": 85.2814,
+   "anomaly": -100.043
+  },
+  {
+   "date": "1998-11",
+   "value": 99.6817,
+   "anomaly": 73.4401
+  },
+  {
+   "date": "1998-12",
+   "value": 0.0,
+   "anomaly": -11.6478
+  },
+  {
+   "date": "1999-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "1999-02",
+   "value": 0.168097,
+   "anomaly": -17.0972
+  },
+  {
+   "date": "1999-03",
+   "value": 3.44082,
+   "anomaly": -49.21
+  },
+  {
+   "date": "1999-04",
+   "value": 35.23,
+   "anomaly": -91.218
+  },
+  {
+   "date": "1999-05",
+   "value": 330.976,
+   "anomaly": 56.4956
+  },
+  {
+   "date": "1999-06",
+   "value": 375.756,
+   "anomaly": -2.45944
+  },
+  {
+   "date": "1999-07",
+   "value": 535.179,
+   "anomaly": 144.489
+  },
+  {
+   "date": "1999-08",
+   "value": 337.775,
+   "anomaly": -3.16664
+  },
+  {
+   "date": "1999-09",
+   "value": 303.8,
+   "anomaly": 20.8312
+  },
+  {
+   "date": "1999-10",
+   "value": 330.242,
+   "anomaly": 144.918
+  },
+  {
+   "date": "1999-11",
+   "value": 9.27031,
+   "anomaly": -16.9712
+  },
+  {
+   "date": "1999-12",
+   "value": 1.16245,
+   "anomaly": -10.4853
+  },
+  {
+   "date": "2000-01",
+   "value": 19.7629,
+   "anomaly": 12.1954
+  },
+  {
+   "date": "2000-02",
+   "value": 34.9317,
+   "anomaly": 17.6664
+  },
+  {
+   "date": "2000-03",
+   "value": 93.7881,
+   "anomaly": 41.1373
+  },
+  {
+   "date": "2000-04",
+   "value": 214.91,
+   "anomaly": 88.4622
+  },
+  {
+   "date": "2000-05",
+   "value": 475.885,
+   "anomaly": 201.405
+  },
+  {
+   "date": "2000-06",
+   "value": 297.928,
+   "anomaly": -80.2875
+  },
+  {
+   "date": "2000-07",
+   "value": 235.854,
+   "anomaly": -154.836
+  },
+  {
+   "date": "2000-08",
+   "value": 380.043,
+   "anomaly": 39.101
+  },
+  {
+   "date": "2000-09",
+   "value": 239.158,
+   "anomaly": -43.8114
+  },
+  {
+   "date": "2000-10",
+   "value": 220.882,
+   "anomaly": 35.5585
+  },
+  {
+   "date": "2000-11",
+   "value": 4.36575,
+   "anomaly": -21.8758
+  },
+  {
+   "date": "2000-12",
+   "value": 0.371714,
+   "anomaly": -11.2761
+  },
+  {
+   "date": "2001-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2001-02",
+   "value": 16.885,
+   "anomaly": -0.380262
+  },
+  {
+   "date": "2001-03",
+   "value": 18.3662,
+   "anomaly": -34.2846
+  },
+  {
+   "date": "2001-04",
+   "value": 100.883,
+   "anomaly": -25.5651
+  },
+  {
+   "date": "2001-05",
+   "value": 396.238,
+   "anomaly": 121.757
+  },
+  {
+   "date": "2001-06",
+   "value": 500.994,
+   "anomaly": 122.778
+  },
+  {
+   "date": "2001-07",
+   "value": 314.485,
+   "anomaly": -76.2056
+  },
+  {
+   "date": "2001-08",
+   "value": 229.75,
+   "anomaly": -111.192
+  },
+  {
+   "date": "2001-09",
+   "value": 272.607,
+   "anomaly": -10.3624
+  },
+  {
+   "date": "2001-10",
+   "value": 199.435,
+   "anomaly": 14.1115
+  },
+  {
+   "date": "2001-11",
+   "value": 35.057,
+   "anomaly": 8.81547
+  },
+  {
+   "date": "2001-12",
+   "value": 0.0,
+   "anomaly": -11.6478
+  },
+  {
+   "date": "2002-01",
+   "value": 16.6483,
+   "anomaly": 9.08075
+  },
+  {
+   "date": "2002-02",
+   "value": 1.63824,
+   "anomaly": -15.627
+  },
+  {
+   "date": "2002-03",
+   "value": 86.6264,
+   "anomaly": 33.9757
+  },
+  {
+   "date": "2002-04",
+   "value": 139.757,
+   "anomaly": 13.3093
+  },
+  {
+   "date": "2002-05",
+   "value": 311.727,
+   "anomaly": 37.2469
+  },
+  {
+   "date": "2002-06",
+   "value": 522.804,
+   "anomaly": 144.588
+  },
+  {
+   "date": "2002-07",
+   "value": 493.129,
+   "anomaly": 102.439
+  },
+  {
+   "date": "2002-08",
+   "value": 342.844,
+   "anomaly": 1.90161
+  },
+  {
+   "date": "2002-09",
+   "value": 239.259,
+   "anomaly": -43.7104
+  },
+  {
+   "date": "2002-10",
+   "value": 61.9826,
+   "anomaly": -123.341
+  },
+  {
+   "date": "2002-11",
+   "value": 106.021,
+   "anomaly": 79.7796
+  },
+  {
+   "date": "2002-12",
+   "value": 0.0464462,
+   "anomaly": -11.6013
+  },
+  {
+   "date": "2003-01",
+   "value": 0.883518,
+   "anomaly": -6.68399
+  },
+  {
+   "date": "2003-02",
+   "value": 19.4878,
+   "anomaly": 2.22254
+  },
+  {
+   "date": "2003-03",
+   "value": 130.942,
+   "anomaly": 78.291
+  },
+  {
+   "date": "2003-04",
+   "value": 115.108,
+   "anomaly": -11.34
+  },
+  {
+   "date": "2003-05",
+   "value": 179.848,
+   "anomaly": -94.6323
+  },
+  {
+   "date": "2003-06",
+   "value": 510.662,
+   "anomaly": 132.446
+  },
+  {
+   "date": "2003-07",
+   "value": 255.798,
+   "anomaly": -134.893
+  },
+  {
+   "date": "2003-08",
+   "value": 213.903,
+   "anomaly": -127.039
+  },
+  {
+   "date": "2003-09",
+   "value": 223.871,
+   "anomaly": -59.0983
+  },
+  {
+   "date": "2003-10",
+   "value": 225.892,
+   "anomaly": 40.5676
+  },
+  {
+   "date": "2003-11",
+   "value": 0.360277,
+   "anomaly": -25.8813
+  },
+  {
+   "date": "2003-12",
+   "value": 27.8083,
+   "anomaly": 16.1605
+  },
+  {
+   "date": "2004-01",
+   "value": 2.83616,
+   "anomaly": -4.73134
+  },
+  {
+   "date": "2004-02",
+   "value": 0.783067,
+   "anomaly": -16.4822
+  },
+  {
+   "date": "2004-03",
+   "value": 20.7845,
+   "anomaly": -31.8663
+  },
+  {
+   "date": "2004-04",
+   "value": 180.481,
+   "anomaly": 54.0334
+  },
+  {
+   "date": "2004-05",
+   "value": 162.972,
+   "anomaly": -111.508
+  },
+  {
+   "date": "2004-06",
+   "value": 481.59,
+   "anomaly": 103.374
+  },
+  {
+   "date": "2004-07",
+   "value": 430.372,
+   "anomaly": 39.6823
+  },
+  {
+   "date": "2004-08",
+   "value": 290.252,
+   "anomaly": -50.6896
+  },
+  {
+   "date": "2004-09",
+   "value": 675.615,
+   "anomaly": 392.646
+  },
+  {
+   "date": "2004-10",
+   "value": 268.901,
+   "anomaly": 83.5768
+  },
+  {
+   "date": "2004-11",
+   "value": 1.30516,
+   "anomaly": -24.9364
+  },
+  {
+   "date": "2004-12",
+   "value": 2.83566,
+   "anomaly": -8.81212
+  },
+  {
+   "date": "2005-01",
+   "value": 5.81273,
+   "anomaly": -1.75477
+  },
+  {
+   "date": "2005-02",
+   "value": 7.64274,
+   "anomaly": -9.62253
+  },
+  {
+   "date": "2005-03",
+   "value": 139.504,
+   "anomaly": 86.8536
+  },
+  {
+   "date": "2005-04",
+   "value": 96.0293,
+   "anomaly": -30.4187
+  },
+  {
+   "date": "2005-05",
+   "value": 231.923,
+   "anomaly": -42.5575
+  },
+  {
+   "date": "2005-06",
+   "value": 263.254,
+   "anomaly": -114.962
+  },
+  {
+   "date": "2005-07",
+   "value": 473.139,
+   "anomaly": 82.4484
+  },
+  {
+   "date": "2005-08",
+   "value": 397.147,
+   "anomaly": 56.2051
+  },
+  {
+   "date": "2005-09",
+   "value": 367.817,
+   "anomaly": 84.8481
+  },
+  {
+   "date": "2005-10",
+   "value": 360.047,
+   "anomaly": 174.723
+  },
+  {
+   "date": "2005-11",
+   "value": 1.39498,
+   "anomaly": -24.8466
+  },
+  {
+   "date": "2005-12",
+   "value": 0.790554,
+   "anomaly": -10.8572
+  },
+  {
+   "date": "2006-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2006-02",
+   "value": 1.09177,
+   "anomaly": -16.1735
+  },
+  {
+   "date": "2006-03",
+   "value": 0.976375,
+   "anomaly": -51.6744
+  },
+  {
+   "date": "2006-04",
+   "value": 127.431,
+   "anomaly": 0.983467
+  },
+  {
+   "date": "2006-05",
+   "value": 347.065,
+   "anomaly": 72.5848
+  },
+  {
+   "date": "2006-06",
+   "value": 333.219,
+   "anomaly": -44.9967
+  },
+  {
+   "date": "2006-07",
+   "value": 296.206,
+   "anomaly": -94.4843
+  },
+  {
+   "date": "2006-08",
+   "value": 283.367,
+   "anomaly": -57.5755
+  },
+  {
+   "date": "2006-09",
+   "value": 473.092,
+   "anomaly": 190.123
+  },
+  {
+   "date": "2006-10",
+   "value": 48.9183,
+   "anomaly": -136.406
+  },
+  {
+   "date": "2006-11",
+   "value": 4.18581,
+   "anomaly": -22.0557
+  },
+  {
+   "date": "2006-12",
+   "value": 0.0,
+   "anomaly": -11.6478
+  },
+  {
+   "date": "2007-01",
+   "value": 0.837036,
+   "anomaly": -6.73047
+  },
+  {
+   "date": "2007-02",
+   "value": 55.3983,
+   "anomaly": 38.133
+  },
+  {
+   "date": "2007-03",
+   "value": 19.7631,
+   "anomaly": -32.8877
+  },
+  {
+   "date": "2007-04",
+   "value": 150.876,
+   "anomaly": 24.4277
+  },
+  {
+   "date": "2007-05",
+   "value": 158.796,
+   "anomaly": -115.684
+  },
+  {
+   "date": "2007-06",
+   "value": 612.831,
+   "anomaly": 234.615
+  },
+  {
+   "date": "2007-07",
+   "value": 718.977,
+   "anomaly": 328.287
+  },
+  {
+   "date": "2007-08",
+   "value": 302.987,
+   "anomaly": -37.9555
+  },
+  {
+   "date": "2007-09",
+   "value": 261.587,
+   "anomaly": -21.3824
+  },
+  {
+   "date": "2007-10",
+   "value": 264.36,
+   "anomaly": 79.0357
+  },
+  {
+   "date": "2007-11",
+   "value": 105.753,
+   "anomaly": 79.5115
+  },
+  {
+   "date": "2007-12",
+   "value": 0.0,
+   "anomaly": -11.6478
+  },
+  {
+   "date": "2008-01",
+   "value": 37.3398,
+   "anomaly": 29.7723
+  },
+  {
+   "date": "2008-02",
+   "value": 32.1905,
+   "anomaly": 14.9252
+  },
+  {
+   "date": "2008-03",
+   "value": 61.1903,
+   "anomaly": 8.53952
+  },
+  {
+   "date": "2008-04",
+   "value": 52.4268,
+   "anomaly": -74.0212
+  },
+  {
+   "date": "2008-05",
+   "value": 237.884,
+   "anomaly": -36.5966
+  },
+  {
+   "date": "2008-06",
+   "value": 425.37,
+   "anomaly": 47.1539
+  },
+  {
+   "date": "2008-07",
+   "value": 502.247,
+   "anomaly": 111.557
+  },
+  {
+   "date": "2008-08",
+   "value": 331.625,
+   "anomaly": -9.31701
+  },
+  {
+   "date": "2008-09",
+   "value": 229.505,
+   "anomaly": -53.4641
+  },
+  {
+   "date": "2008-10",
+   "value": 255.337,
+   "anomaly": 70.0129
+  },
+  {
+   "date": "2008-11",
+   "value": 0.31526,
+   "anomaly": -25.9263
+  },
+  {
+   "date": "2008-12",
+   "value": 0.0,
+   "anomaly": -11.6478
+  },
+  {
+   "date": "2009-01",
+   "value": 0.790482,
+   "anomaly": -6.77702
+  },
+  {
+   "date": "2009-02",
+   "value": 3.65376,
+   "anomaly": -13.6115
+  },
+  {
+   "date": "2009-03",
+   "value": 49.898,
+   "anomaly": -2.7528
+  },
+  {
+   "date": "2009-04",
+   "value": 36.2625,
+   "anomaly": -90.1854
+  },
+  {
+   "date": "2009-05",
+   "value": 225.195,
+   "anomaly": -49.2853
+  },
+  {
+   "date": "2009-06",
+   "value": 249.662,
+   "anomaly": -128.553
+  },
+  {
+   "date": "2009-07",
+   "value": 503.936,
+   "anomaly": 113.246
+  },
+  {
+   "date": "2009-08",
+   "value": 498.292,
+   "anomaly": 157.349
+  },
+  {
+   "date": "2009-09",
+   "value": 281.889,
+   "anomaly": -1.08042
+  },
+  {
+   "date": "2009-10",
+   "value": 105.229,
+   "anomaly": -80.0948
+  },
+  {
+   "date": "2009-11",
+   "value": 5.0854,
+   "anomaly": -21.1562
+  },
+  {
+   "date": "2009-12",
+   "value": 0.0,
+   "anomaly": -11.6478
+  },
+  {
+   "date": "2010-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2010-02",
+   "value": 26.4998,
+   "anomaly": 9.23452
+  },
+  {
+   "date": "2010-03",
+   "value": 50.3559,
+   "anomaly": -2.29491
+  },
+  {
+   "date": "2010-04",
+   "value": 114.021,
+   "anomaly": -12.4267
+  },
+  {
+   "date": "2010-05",
+   "value": 263.141,
+   "anomaly": -11.3395
+  },
+  {
+   "date": "2010-06",
+   "value": 417.548,
+   "anomaly": 39.3321
+  },
+  {
+   "date": "2010-07",
+   "value": 195.955,
+   "anomaly": -194.735
+  },
+  {
+   "date": "2010-08",
+   "value": 290.203,
+   "anomaly": -50.7388
+  },
+  {
+   "date": "2010-09",
+   "value": 203.702,
+   "anomaly": -79.2666
+  },
+  {
+   "date": "2010-10",
+   "value": 195.813,
+   "anomaly": 10.489
+  },
+  {
+   "date": "2010-11",
+   "value": 10.2608,
+   "anomaly": -15.9808
+  },
+  {
+   "date": "2010-12",
+   "value": 34.7359,
+   "anomaly": 23.0881
+  },
+  {
+   "date": "2011-01",
+   "value": 0.604339,
+   "anomaly": -6.96317
+  },
+  {
+   "date": "2011-02",
+   "value": 1.38595,
+   "anomaly": -15.8793
+  },
+  {
+   "date": "2011-03",
+   "value": 74.8569,
+   "anomaly": 22.2062
+  },
+  {
+   "date": "2011-04",
+   "value": 65.5206,
+   "anomaly": -60.9274
+  },
+  {
+   "date": "2011-05",
+   "value": 262.023,
+   "anomaly": -12.4569
+  },
+  {
+   "date": "2011-06",
+   "value": 367.351,
+   "anomaly": -10.8649
+  },
+  {
+   "date": "2011-07",
+   "value": 257.565,
+   "anomaly": -133.126
+  },
+  {
+   "date": "2011-08",
+   "value": 511.632,
+   "anomaly": 170.69
+  },
+  {
+   "date": "2011-09",
+   "value": 229.588,
+   "anomaly": -53.3807
+  },
+  {
+   "date": "2011-10",
+   "value": 60.5503,
+   "anomaly": -124.774
+  },
+  {
+   "date": "2011-11",
+   "value": 1.57561,
+   "anomaly": -24.6659
+  },
+  {
+   "date": "2011-12",
+   "value": 0.0,
+   "anomaly": -11.6478
+  },
+  {
+   "date": "2012-01",
+   "value": 17.1123,
+   "anomaly": 9.54475
+  },
+  {
+   "date": "2012-02",
+   "value": 2.17554,
+   "anomaly": -15.0897
+  },
+  {
+   "date": "2012-03",
+   "value": 14.4631,
+   "anomaly": -38.1877
+  },
+  {
+   "date": "2012-04",
+   "value": 279.905,
+   "anomaly": 153.457
+  },
+  {
+   "date": "2012-05",
+   "value": 104.441,
+   "anomaly": -170.04
+  },
+  {
+   "date": "2012-06",
+   "value": 288.756,
+   "anomaly": -89.4603
+  },
+  {
+   "date": "2012-07",
+   "value": 344.141,
+   "anomaly": -46.5496
+  },
+  {
+   "date": "2012-08",
+   "value": 283.418,
+   "anomaly": -57.5243
+  },
+  {
+   "date": "2012-09",
+   "value": 230.338,
+   "anomaly": -52.6314
+  },
+  {
+   "date": "2012-10",
+   "value": 109.463,
+   "anomaly": -75.8607
+  },
+  {
+   "date": "2012-11",
+   "value": 60.6168,
+   "anomaly": 34.3753
+  },
+  {
+   "date": "2012-12",
+   "value": 0.976733,
+   "anomaly": -10.671
+  },
+  {
+   "date": "2013-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2013-02",
+   "value": 6.384,
+   "anomaly": -10.8813
+  },
+  {
+   "date": "2013-03",
+   "value": 37.6634,
+   "anomaly": -14.9874
+  },
+  {
+   "date": "2013-04",
+   "value": 89.8253,
+   "anomaly": -36.6226
+  },
+  {
+   "date": "2013-05",
+   "value": 488.875,
+   "anomaly": 214.394
+  },
+  {
+   "date": "2013-06",
+   "value": 311.939,
+   "anomaly": -66.277
+  },
+  {
+   "date": "2013-07",
+   "value": 232.976,
+   "anomaly": -157.714
+  },
+  {
+   "date": "2013-08",
+   "value": 282.398,
+   "anomaly": -58.544
+  },
+  {
+   "date": "2013-09",
+   "value": 229.597,
+   "anomaly": -53.3717
+  },
+  {
+   "date": "2013-10",
+   "value": 167.075,
+   "anomaly": -18.2494
+  },
+  {
+   "date": "2013-11",
+   "value": 0.0,
+   "anomaly": -26.2416
+  },
+  {
+   "date": "2013-12",
+   "value": 0.744,
+   "anomaly": -10.9038
+  },
+  {
+   "date": "2014-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2014-02",
+   "value": 21.9644,
+   "anomaly": 4.69914
+  },
+  {
+   "date": "2014-03",
+   "value": 11.3456,
+   "anomaly": -41.3051
+  },
+  {
+   "date": "2014-04",
+   "value": 48.6425,
+   "anomaly": -77.8055
+  },
+  {
+   "date": "2014-05",
+   "value": 186.093,
+   "anomaly": -88.387
+  },
+  {
+   "date": "2014-06",
+   "value": 431.415,
+   "anomaly": 53.199
+  },
+  {
+   "date": "2014-07",
+   "value": 267.418,
+   "anomaly": -123.272
+  },
+  {
+   "date": "2014-08",
+   "value": 400.724,
+   "anomaly": 59.782
+  },
+  {
+   "date": "2014-09",
+   "value": 265.574,
+   "anomaly": -17.3953
+  },
+  {
+   "date": "2014-10",
+   "value": 70.4967,
+   "anomaly": -114.827
+  },
+  {
+   "date": "2014-11",
+   "value": 0.0,
+   "anomaly": -26.2416
+  },
+  {
+   "date": "2014-12",
+   "value": 0.744,
+   "anomaly": -10.9038
+  },
+  {
+   "date": "2015-01",
+   "value": 6.04446,
+   "anomaly": -1.52304
+  },
+  {
+   "date": "2015-02",
+   "value": 20.7064,
+   "anomaly": 3.44114
+  },
+  {
+   "date": "2015-03",
+   "value": 9.02089,
+   "anomaly": -43.6299
+  },
+  {
+   "date": "2015-04",
+   "value": 208.072,
+   "anomaly": 81.6239
+  },
+  {
+   "date": "2015-05",
+   "value": 192.038,
+   "anomaly": -82.4425
+  },
+  {
+   "date": "2015-06",
+   "value": 448.281,
+   "anomaly": 70.065
+  },
+  {
+   "date": "2015-07",
+   "value": 610.565,
+   "anomaly": 219.874
+  },
+  {
+   "date": "2015-08",
+   "value": 375.391,
+   "anomaly": 34.4487
+  },
+  {
+   "date": "2015-09",
+   "value": 279.497,
+   "anomaly": -3.47233
+  },
+  {
+   "date": "2015-10",
+   "value": 67.8908,
+   "anomaly": -117.433
+  },
+  {
+   "date": "2015-11",
+   "value": 0.764948,
+   "anomaly": -25.4766
+  },
+  {
+   "date": "2015-12",
+   "value": 1.02336,
+   "anomaly": -10.6244
+  },
+  {
+   "date": "2016-01",
+   "value": 5.25362,
+   "anomaly": -2.31388
+  },
+  {
+   "date": "2016-02",
+   "value": 14.3125,
+   "anomaly": -2.95278
+  },
+  {
+   "date": "2016-03",
+   "value": 85.8335,
+   "anomaly": 33.1827
+  },
+  {
+   "date": "2016-04",
+   "value": 61.6429,
+   "anomaly": -64.805
+  },
+  {
+   "date": "2016-05",
+   "value": 344.671,
+   "anomaly": 70.191
+  },
+  {
+   "date": "2016-06",
+   "value": 225.762,
+   "anomaly": -152.454
+  },
+  {
+   "date": "2016-07",
+   "value": 461.324,
+   "anomaly": 70.6335
+  },
+  {
+   "date": "2016-08",
+   "value": 271.803,
+   "anomaly": -69.1388
+  },
+  {
+   "date": "2016-09",
+   "value": 220.129,
+   "anomaly": -62.8401
+  },
+  {
+   "date": "2016-10",
+   "value": 96.5367,
+   "anomaly": -88.7872
+  },
+  {
+   "date": "2016-11",
+   "value": 67.2812,
+   "anomaly": 41.0396
+  },
+  {
+   "date": "2016-12",
+   "value": 0.232267,
+   "anomaly": -11.4155
+  },
+  {
+   "date": "2017-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2017-02",
+   "value": 3.61158,
+   "anomaly": -13.6537
+  },
+  {
+   "date": "2017-03",
+   "value": 129.919,
+   "anomaly": 77.2687
+  },
+  {
+   "date": "2017-04",
+   "value": 279.488,
+   "anomaly": 153.04
+  },
+  {
+   "date": "2017-05",
+   "value": 212.543,
+   "anomaly": -61.9375
+  },
+  {
+   "date": "2017-06",
+   "value": 427.946,
+   "anomaly": 49.7299
+  },
+  {
+   "date": "2017-07",
+   "value": 515.597,
+   "anomaly": 124.906
+  },
+  {
+   "date": "2017-08",
+   "value": 466.017,
+   "anomaly": 125.075
+  },
+  {
+   "date": "2017-09",
+   "value": 325.346,
+   "anomaly": 42.3768
+  },
+  {
+   "date": "2017-10",
+   "value": 367.076,
+   "anomaly": 181.752
+  },
+  {
+   "date": "2017-11",
+   "value": 15.4347,
+   "anomaly": -10.8068
+  },
+  {
+   "date": "2017-12",
+   "value": 60.2668,
+   "anomaly": 48.619
+  },
+  {
+   "date": "2018-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2018-02",
+   "value": 8.48345,
+   "anomaly": -8.78182
+  },
+  {
+   "date": "2018-03",
+   "value": 20.4575,
+   "anomaly": -32.1933
+  },
+  {
+   "date": "2018-04",
+   "value": 265.761,
+   "anomaly": 139.313
+  },
+  {
+   "date": "2018-05",
+   "value": 389.245,
+   "anomaly": 114.765
+  },
+  {
+   "date": "2018-06",
+   "value": 374.629,
+   "anomaly": -3.58712
+  },
+  {
+   "date": "2018-07",
+   "value": 364.422,
+   "anomaly": -26.2683
+  },
+  {
+   "date": "2018-08",
+   "value": 183.203,
+   "anomaly": -157.739
+  },
+  {
+   "date": "2018-09",
+   "value": 136.883,
+   "anomaly": -146.086
+  },
+  {
+   "date": "2018-10",
+   "value": 71.562,
+   "anomaly": -113.762
+  },
+  {
+   "date": "2018-11",
+   "value": 4.90557,
+   "anomaly": -21.336
+  },
+  {
+   "date": "2018-12",
+   "value": 15.81,
+   "anomaly": 4.16222
+  },
+  {
+   "date": "2019-01",
+   "value": 1.85986,
+   "anomaly": -5.70765
+  },
+  {
+   "date": "2019-02",
+   "value": 97.485,
+   "anomaly": 80.2197
+  },
+  {
+   "date": "2019-03",
+   "value": 46.87,
+   "anomaly": -5.78083
+  },
+  {
+   "date": "2019-04",
+   "value": 163.58,
+   "anomaly": 37.1325
+  },
+  {
+   "date": "2019-05",
+   "value": 210.086,
+   "anomaly": -64.3946
+  },
+  {
+   "date": "2019-06",
+   "value": 247.76,
+   "anomaly": -130.456
+  },
+  {
+   "date": "2019-07",
+   "value": 423.786,
+   "anomaly": 33.0955
+  },
+  {
+   "date": "2019-08",
+   "value": 250.318,
+   "anomaly": -90.6242
+  },
+  {
+   "date": "2019-09",
+   "value": 222.97,
+   "anomaly": -59.9996
+  },
+  {
+   "date": "2019-10",
+   "value": 171.86,
+   "anomaly": -13.4644
+  },
+  {
+   "date": "2019-11",
+   "value": 63.5908,
+   "anomaly": 37.3492
+  },
+  {
+   "date": "2019-12",
+   "value": 4.92921,
+   "anomaly": -6.71856
+  },
+  {
+   "date": "2020-01",
+   "value": 25.7152,
+   "anomaly": 18.1477
+  },
+  {
+   "date": "2020-02",
+   "value": 2.78403,
+   "anomaly": -14.4812
+  },
+  {
+   "date": "2020-03",
+   "value": 22.5989,
+   "anomaly": -30.0519
+  },
+  {
+   "date": "2020-04",
+   "value": 189.325,
+   "anomaly": 62.8769
+  },
+  {
+   "date": "2020-05",
+   "value": 330.881,
+   "anomaly": 56.4008
+  },
+  {
+   "date": "2020-06",
+   "value": 356.34,
+   "anomaly": -21.8763
+  },
+  {
+   "date": "2020-07",
+   "value": 416.391,
+   "anomaly": 25.7008
+  },
+  {
+   "date": "2020-08",
+   "value": 280.221,
+   "anomaly": -60.7213
+  },
+  {
+   "date": "2020-09",
+   "value": 293.737,
+   "anomaly": 10.768
+  },
+  {
+   "date": "2020-10",
+   "value": 217.673,
+   "anomaly": 32.3489
+  },
+  {
+   "date": "2020-11",
+   "value": 16.0214,
+   "anomaly": -10.2202
+  },
+  {
+   "date": "2020-12",
+   "value": 0.744,
+   "anomaly": -10.9038
+  },
+  {
+   "date": "2021-01",
+   "value": 1.02279,
+   "anomaly": -6.54472
+  },
+  {
+   "date": "2021-02",
+   "value": 0.755903,
+   "anomaly": -16.5094
+  },
+  {
+   "date": "2021-03",
+   "value": 9.71816,
+   "anomaly": -42.9326
+  },
+  {
+   "date": "2021-04",
+   "value": 44.1869,
+   "anomaly": -82.261
+  },
+  {
+   "date": "2021-05",
+   "value": 232.488,
+   "anomaly": -41.9918
+  },
+  {
+   "date": "2021-06",
+   "value": 550.301,
+   "anomaly": 172.085
+  },
+  {
+   "date": "2021-07",
+   "value": 370.52,
+   "anomaly": -20.1707
+  },
+  {
+   "date": "2021-08",
+   "value": 377.466,
+   "anomaly": 36.5241
+  },
+  {
+   "date": "2021-09",
+   "value": 208.308,
+   "anomaly": -74.6608
+  },
+  {
+   "date": "2021-10",
+   "value": 193.155,
+   "anomaly": 7.83129
+  },
+  {
+   "date": "2021-11",
+   "value": 33.753,
+   "anomaly": 7.51146
+  },
+  {
+   "date": "2021-12",
+   "value": 114.907,
+   "anomaly": 103.259
+  },
+  {
+   "date": "2022-01",
+   "value": 12.4613,
+   "anomaly": 4.89378
+  },
+  {
+   "date": "2022-02",
+   "value": 34.6911,
+   "anomaly": 17.4259
+  },
+  {
+   "date": "2022-03",
+   "value": 10.5084,
+   "anomaly": -42.1424
+  },
+  {
+   "date": "2022-04",
+   "value": 102.772,
+   "anomaly": -23.6759
+  },
+  {
+   "date": "2022-05",
+   "value": 339.486,
+   "anomaly": 65.0054
+  },
+  {
+   "date": "2022-06",
+   "value": 363.572,
+   "anomaly": -14.6435
+  },
+  {
+   "date": "2022-07",
+   "value": 135.032,
+   "anomaly": -255.658
+  },
+  {
+   "date": "2022-08",
+   "value": 247.979,
+   "anomaly": -92.9628
+  },
+  {
+   "date": "2022-09",
+   "value": 307.614,
+   "anomaly": 24.6452
+  },
+  {
+   "date": "2022-10",
+   "value": 289.842,
+   "anomaly": 104.518
+  },
+  {
+   "date": "2022-11",
+   "value": 0.0,
+   "anomaly": -26.2416
+  },
+  {
+   "date": "2022-12",
+   "value": 2.232,
+   "anomaly": -9.41578
+  },
+  {
+   "date": "2023-01",
+   "value": 0.744,
+   "anomaly": -6.8235
+  },
+  {
+   "date": "2023-02",
+   "value": 1.7629,
+   "anomaly": -15.5024
+  },
+  {
+   "date": "2023-03",
+   "value": 81.4201,
+   "anomaly": 28.7693
+  },
+  {
+   "date": "2023-04",
+   "value": 40.2302,
+   "anomaly": -86.2177
+  },
+  {
+   "date": "2023-05",
+   "value": 170.556,
+   "anomaly": -103.924
+  },
+  {
+   "date": "2023-06",
+   "value": 345.23,
+   "anomaly": -32.9857
+  },
+  {
+   "date": "2023-07",
+   "value": 238.809,
+   "anomaly": -151.881
+  },
+  {
+   "date": "2023-08",
+   "value": 420.453,
+   "anomaly": 79.5112
+  },
+  {
+   "date": "2023-09",
+   "value": 264.554,
+   "anomaly": -18.415
+  },
+  {
+   "date": "2023-10",
+   "value": 237.468,
+   "anomaly": 52.1436
+  },
+  {
+   "date": "2023-11",
+   "value": 51.5298,
+   "anomaly": 25.2883
+  },
+  {
+   "date": "2023-12",
+   "value": 44.0831,
+   "anomaly": 32.4353
+  },
+  {
+   "date": "2024-01",
+   "value": 4.1855,
+   "anomaly": -3.382
+  },
+  {
+   "date": "2024-02",
+   "value": 22.4461,
+   "anomaly": 5.18087
+  },
+  {
+   "date": "2024-03",
+   "value": 78.3526,
+   "anomaly": 25.7018
+  },
+  {
+   "date": "2024-04",
+   "value": 18.9011,
+   "anomaly": -107.547
+  },
+  {
+   "date": "2024-05",
+   "value": 302.019,
+   "anomaly": 27.5391
+  },
+  {
+   "date": "2024-06",
+   "value": 320.243,
+   "anomaly": -57.9724
+  },
+  {
+   "date": "2024-07",
+   "value": 352.467,
+   "anomaly": -38.2234
+  },
+  {
+   "date": "2024-08",
+   "value": 513.281,
+   "anomaly": 172.339
+  },
+  {
+   "date": "2024-09",
+   "value": 411.49,
+   "anomaly": 128.521
+  },
+  {
+   "date": "2024-10",
+   "value": 260.779,
+   "anomaly": 75.4549
+  },
+  {
+   "date": "2024-11",
+   "value": 9.99163,
+   "anomaly": -16.2499
+  },
+  {
+   "date": "2024-12",
+   "value": 0.0465536,
+   "anomaly": -11.6012
+  }
+ ],
+ "annual": [
+  {
+   "year": 1998,
+   "mean": 2328.48,
+   "anomaly": 234.042,
+   "n_months": 12
+  },
+  {
+   "year": 1999,
+   "mean": 2263.75,
+   "anomaly": 169.303,
+   "n_months": 12
+  },
+  {
+   "year": 2000,
+   "mean": 2217.88,
+   "anomaly": 123.438,
+   "n_months": 12
+  },
+  {
+   "year": 2001,
+   "mean": 2085.44,
+   "anomaly": -8.99903,
+   "n_months": 12
+  },
+  {
+   "year": 2002,
+   "mean": 2322.48,
+   "anomaly": 228.041,
+   "n_months": 12
+  },
+  {
+   "year": 2003,
+   "mean": 1904.56,
+   "anomaly": -189.88,
+   "n_months": 12
+  },
+  {
+   "year": 2004,
+   "mean": 2518.73,
+   "anomaly": 424.286,
+   "n_months": 12
+  },
+  {
+   "year": 2005,
+   "mean": 2344.5,
+   "anomaly": 250.059,
+   "n_months": 12
+  },
+  {
+   "year": 2006,
+   "mean": 1916.3,
+   "anomaly": -178.146,
+   "n_months": 12
+  },
+  {
+   "year": 2007,
+   "mean": 2652.16,
+   "anomaly": 557.722,
+   "n_months": 12
+  },
+  {
+   "year": 2008,
+   "mean": 2165.43,
+   "anomaly": 70.9875,
+   "n_months": 12
+  },
+  {
+   "year": 2009,
+   "mean": 1959.89,
+   "anomaly": -134.55,
+   "n_months": 12
+  },
+  {
+   "year": 2010,
+   "mean": 1802.98,
+   "anomaly": -291.462,
+   "n_months": 12
+  },
+  {
+   "year": 2011,
+   "mean": 1832.65,
+   "anomaly": -261.79,
+   "n_months": 12
+  },
+  {
+   "year": 2012,
+   "mean": 1735.8,
+   "anomaly": -358.638,
+   "n_months": 12
+  },
+  {
+   "year": 2013,
+   "mean": 1848.22,
+   "anomaly": -246.222,
+   "n_months": 12
+  },
+  {
+   "year": 2014,
+   "mean": 1705.16,
+   "anomaly": -389.281,
+   "n_months": 12
+  },
+  {
+   "year": 2015,
+   "mean": 2219.29,
+   "anomaly": 124.851,
+   "n_months": 12
+  },
+  {
+   "year": 2016,
+   "mean": 1854.78,
+   "anomaly": -239.661,
+   "n_months": 12
+  },
+  {
+   "year": 2017,
+   "mean": 2803.99,
+   "anomaly": 709.546,
+   "n_months": 12
+  },
+  {
+   "year": 2018,
+   "mean": 1836.11,
+   "anomaly": -258.337,
+   "n_months": 12
+  },
+  {
+   "year": 2019,
+   "mean": 1905.09,
+   "anomaly": -189.349,
+   "n_months": 12
+  },
+  {
+   "year": 2020,
+   "mean": 2152.43,
+   "anomaly": 57.9883,
+   "n_months": 12
+  },
+  {
+   "year": 2021,
+   "mean": 2136.58,
+   "anomaly": 42.1403,
+   "n_months": 12
+  },
+  {
+   "year": 2022,
+   "mean": 1846.19,
+   "anomaly": -248.251,
+   "n_months": 12
+  },
+  {
+   "year": 2023,
+   "mean": 1896.84,
+   "anomaly": -197.601,
+   "n_months": 12
+  },
+  {
+   "year": 2024,
+   "mean": 2294.2,
+   "anomaly": 199.761,
+   "n_months": 12
+  }
+ ],
+ "climatology": {
+  "1": 7.5675,
+  "2": 17.2653,
+  "3": 52.6508,
+  "4": 126.448,
+  "5": 274.48,
+  "6": 378.216,
+  "7": 390.69,
+  "8": 340.942,
+  "9": 282.969,
+  "10": 185.324,
+  "11": 26.2416,
+  "12": 11.6478
+ },
+ "trend": {
+  "n_years": 27,
+  "length_flag": "ok",
+  "verdict": "no_evidence",
+  "direction": "no_clear_trend",
+  "sen_slope_per_decade": -97.2519,
+  "sen_ci95_per_decade": [
+   -246.19,
+   35.2565
+  ],
+  "sen_intercept": 19548.4,
+  "ols_slope_per_decade": -95.7495,
+  "ols_ci95_per_decade": [
+   -238.387,
+   46.8881
+  ],
+  "ols_p": 0.179038,
+  "mk_tau": -0.213675,
+  "mk_p": 0.123673,
+  "pct_of_mean_per_decade": -4.64333,
+  "total_change": -252.855,
+  "mean_level": 2094.44,
+  "years_needed": 49.1215,
+  "period_enough": false,
+  "extra_years_needed": 23,
+  "noise_sigma_monthly": 80.495,
+  "noise_lag1_autocorr": 0.0491012,
+  "summary": "Precipitation over Dhaka shows no clear trend (1998–2024). The estimated change of -97.3 mm/year per decade could be chance (p = 0.124). If it kept going at this rate, about 50 years of data would be needed to detect it; we have 27.",
+  "mk_p_fdr": 0.150616,
+  "significant_after_fdr": false
+ },
+ "quality": {
+  "raw_files": [
+   "g4.areaAvgTimeSeries.GPM_3IMERGM_07_precipitation.19980101-20241231.90E_23N_90E_24N.csv"
+  ],
+  "matched_by": [
+   "bbox (off by 0.05°)"
+  ],
+  "daily_input": false,
+  "months_valid": 324,
+  "years_dropped": [],
+  "unit_notes": [
+   "mm/hr -> mm/month",
+   "units not found in file: assumed mm/hr (check the summary's mean value)"
+  ]
+ },
+ "source": {
+  "tool": "Giovanni (Time Series, Area-Averaged)",
+  "reproduce_url": "#service=ArAvTs&starttime=1998-01-01T00:00:00Z&endtime=2024-12-31T23:59:59Z&bbox=90.2,23.6,90.6,24&data=GPM_3IMERGM_07_precipitation&dataKeyword=GPM_3IMERGM&portal=GIOVANNI&format=json"
+ }
+}

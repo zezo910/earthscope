@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / Vite
+node_modules/
+case-game/dist/
+
+# Local settings
+.env
+*.local
+
+# Test output
+tests/e2e/screenshots/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/

@@ -1,0 +1,18 @@
+html, body, #root { margin: 0; min-height: 100%; background: #081020; color: #e6ecf8; }
+body { font-family: Inter, system-ui, sans-serif; }
+
+.topbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 10px 20px; border-bottom: 1px solid #223357; background: #0b1630;
+}
+.topbar .brand { display: flex; align-items: center; gap: 10px; background: none; border: 0; color: inherit; cursor: pointer; font: inherit; }
+.topbar .brand img { width: 32px; height: 32px; border-radius: 6px; }
+.topbar .brand b { font-family: "Space Grotesk", system-ui, sans-serif; font-size: 1.15rem; }
+.topbar .brand span { color: #8a97b3; font-size: .85rem; }
+.topbar .actions { display: flex; gap: 8px; }
+.topbar button.pill {
+  background: transparent; color: #e6ecf8; border: 1px solid #223357; border-radius: 999px;
+  padding: 6px 14px; font: inherit; cursor: pointer;
+}
+.topbar button.pill:hover, .topbar button.pill:focus-visible { border-color: #f5a524; outline: none; }
+@media (max-width: 560px) { .topbar .brand span { display: none; } }
